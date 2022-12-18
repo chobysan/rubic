@@ -1,0 +1,25 @@
+{
+  "name": "rubic",
+  "version": "1.0.0",
+  "description": "Softuni JS Backed Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chobysan/rubic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chobysan/rubic/issues"
+  },
+  "homepage": "https://github.com/chobysan/rubic#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
