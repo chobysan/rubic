@@ -4,7 +4,7 @@
   "description": "Softuni JS Backed Project",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./src && nodemon ./src/index.js"
+    "start": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",

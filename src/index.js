@@ -8,7 +8,7 @@ app.use('/static', express.static('public'));
 
 app.engine('hbs', handlebars.engine({ extname: 'hbs' }));
 app.set('view engine', 'hbs');
-//app.set('views', './src/views')
+app.set('views', './src/views')
 
 app.get('/', (req, res) => {
 	res.render('index');
