@@ -4,7 +4,8 @@ const routes = require('./routes');
 const app = express();
 
 app.use('/static', express.static('public'));
-//app.use(express.static('public')); v2
+
+app.use(express.urlencoded({ extended: true }));
 
 app.engine('hbs', handlebars.engine({ extname: 'hbs' }));
 app.set('view engine', 'hbs');
