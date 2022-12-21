@@ -14,7 +14,10 @@ router.post('/create', (req, res) => {
 		.save(cube)
 		.then(() => res.redirect('/'))
 		.catch((err) => res.status(400).send(err));
-	//redirect to page
 });
+
+router.get('/details/:id', (req, res) =>{
+    res.render('details')
+})
 
 module.exports = router;
