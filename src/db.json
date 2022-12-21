@@ -22,13 +22,25 @@
     {
         "name": "classic rubic",
         "description": "best ",
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwvqRJXk-4ZIsQRM2V8V0F4KVNrzehresEUw&usqp=CAU",
+        "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwvqRJXk-4ZIsQRM2V8V0F4KVNrzehresEUw&usqp=CAU",
         "difficultyLevel": "6"
     },
     {
-        "name": "нев rubic",
+        "name": "new rubic",
         "description": "2131",
-        "imageUrl": "213123",
+        "imageURL": "https://i5.walmartimages.com/asr/d66e14e2-73bd-49d7-a019-a546fdd71558.877779a8c666996d5f159d078c407823.jpeg",
         "difficultyLevel": "5"
+    },
+    {
+        "name": "3rd cube",
+        "description": "23123",
+        "imageURL": "https://cdn.shopify.com/s/files/1/0646/0891/products/GAN13MaglevPhoto-2.png?v=1663471008",
+        "difficultyLevel": "1"
+    },
+    {
+        "name": "4r3rwer",
+        "description": "ewr",
+        "imageURL": "rewr",
+        "difficultyLevel": "4"
     }
 ]
